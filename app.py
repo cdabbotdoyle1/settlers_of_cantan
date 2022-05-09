@@ -1,9 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
+from routes import *
 
-@app.route("/")
-def hello():
-    return "Settlers of Catalan"
-
-if __name__ == "__main__":
-    app.run(ssl_context=('cert.pem', 'key.pem'))
+if __name__ == '__main__':
+    app.run(debug=True)

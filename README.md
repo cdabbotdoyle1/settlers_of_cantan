@@ -16,4 +16,8 @@
 2. Login Auth using JWT 
 3. Game Engine
 4. Player Match Feature
-5. 
+5. Leaderboard and Player Stats
+
+
+# Team members
+1. 
